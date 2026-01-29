@@ -22,7 +22,6 @@ class HomePage(BasePage):
 
     def click_first_search_result(self):
         self.click_element(Elements['search_first_result'].value)
-        # self.find_element(Elements['loading_spinner'].value)
         self.waiting_element_not_exist(Elements['loading_spinner'].value)
 
     def wait_for_search_results(self):
