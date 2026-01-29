@@ -85,6 +85,5 @@ twitch-wap-test/
 ├── reports/                   # HTML test reports
 ├── pytest.ini               # pytest configuration
 ├── requirements.txt          # Python dependencies
-├── CLAUDE.md                 # Claude Code guidance file
 └── README.md                 # Project documentation
 ```
